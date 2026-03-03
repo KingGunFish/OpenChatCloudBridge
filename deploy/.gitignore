@@ -1,0 +1,13 @@
+# 用户配置文件（包含服务器IP和密钥）
+config.json
+
+# 部署包
+*.tar.gz
+*.zip
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+.DS_Store

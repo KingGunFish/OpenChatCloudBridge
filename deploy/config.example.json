@@ -1,0 +1,10 @@
+{
+  "_comment": "CloudBridge 部署配置文件 - 复制此文件为 config.json 并修改",
+  "server": {
+    "ip": "192.168.1.100",
+    "port": 18789
+  },
+  "security": {
+    "secretKey": "AppSecret2026"
+  }
+}

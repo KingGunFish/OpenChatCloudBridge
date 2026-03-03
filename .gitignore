@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Environment variables (sensitive information)
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+
+# Runtime data
+data/
+logs/
+*.log
+*.db
+*.db-journal
+
+# Deployment packages and temporary files
+*.tar.gz
+*.zip
+DEPLOY_INFO.txt
+OPENCLAW_DEPLOY_PACKAGE.tar.gz
+openclaw-bridge*.tar.gz
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Test files (can be removed for production)
+test-*.cjs
+test-*.js
+
+# OS files
+Thumbs.db
+
+# Deployment config (user-specific)
+deploy/config.json
