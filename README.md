@@ -51,7 +51,7 @@ deploy/
 #### 方式1：命令行指定密钥（推荐，最安全）
 ```bash
 cd deploy
-./deploy.sh -k AppSecret2026
+./deploy.sh -k YourAppSecret
 ```
 密钥不会保存到任何文件，只用于生成哈希部署到服务器。
 
@@ -65,7 +65,7 @@ cd deploy
 #### 方式3：直接指定哈希
 ```bash
 cd deploy
-./deploy.sh -h 02949353af6320b410f5c948fa6f025819cb169f6cc99c0f74a4ced31e230454
+./deploy.sh -h 02949353af6320b41xxxxxxxxxx6f025819cb169f6cc99c0f74a4ced31e230454
 ```
 
 ---
@@ -85,7 +85,6 @@ Windows 版本会提示输入密钥，同样不会在本地保存明文。
 
 - **长度**：8-64 位
 - **字符**：仅限数字和字母（a-z, A-Z, 0-9）
-- **示例**：`AppSecret2026`、`MyKey2024`、`OpenClaw01`
 
 **重要提示：**
 - 请务必牢记你的原始密钥！
@@ -99,7 +98,7 @@ Windows 版本会提示输入密钥，同样不会在本地保存明文。
 部署完成后，在 App 中配置：
 - **服务器地址**：你的服务器IP
 - **端口**：18789
-- **密钥**：你部署时使用的原始密钥（如 `AppSecret2026`）
+- **密钥**：你部署时使用的原始密钥
 
 ---
 
@@ -125,7 +124,7 @@ appSecret: 密钥的SHA256哈希值（部署完成后显示）
 
 示例:
   ./deploy.sh -k MySecret2024
-  ./deploy.sh -h a943446531987b4192ec605a3f1dc76b54df226ddfd9ebb696bb4c2df7e19206
+  ./deploy.sh -h a943446531987bxxxxxxxxxxxxc76b54df226ddfd9ebb696bb4c2df7e19206
 ```
 
 ---
